@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./portfolio.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./20221211183507_IMG_9028.JPG" class="logo">
+                <ul class="sidemenu">
+                    <li><a href="#home">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">services</a> </li>
+                    <li><a href="#portfolio">portfolio</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                </ul>
+                <img class="menu-bar" src="./hamburger.png" onclick="openmenu()" alt="">
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>jonathan </span><br> mwaura from kenya </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./20221211184225_IMG_9047.JPG" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                    <p>I am jonathan maingi mwaura born in 2003 i am good in web desinging and also gaming Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ut ducimus atque tempore sint cum ab minus veritatis sed sit, repellendus fugit incidunt deleniti assumenda consequatur enim, culpa saepe voluptates!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick='opentab("skills")'>Skills</p>
+                        <p class="tab-links"onclick='opentab("Experience")'>Experience</p>
+                        <p class="tab-links"onclick='opentab("Education")'>Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>web Dev</span><br>Designing websites</li>
+                            <li><span>portfolio</span><br>Designing portfolio's</li>
+                            <li><span>Gaming</span><br>Designing Games</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2019-2021</span><br>Safaricom company</li>
+                            <li><span>2021-2022</span><br>The utugi's mpesa</li>
+                            <li><span>2023-2023</span><br>Equity Bank</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021</span><br>Zetech University</li>
+                            <li><span>2022</span><br>Code Camp National</li>
+                            <li><span>2023</span><br>Humphreys coding school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-lists">
+                <div>
+                    <h2>web Design</h2>
+                    <p>web desiging has been my all time desire course. i am so determined in web designing as my future career i am so passionate in web desigin</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Graphic Design</h2>
+                    <p>jonathan is also a graphic desginer he has been designing pictures since childhoood using clayons i have also designed photos for our musician star mejja</p>
+                    <a href="#">Learn more</a>
+                </div><div>
+                    <h2>Game Design</h2>
+                    <p>Gaming is all i do on my free time i am one the most wanted guys in the Grand theft auto also know as GTA i have played it since version one i also played need for speed</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio"></div>
+    <div class="container">
+        <h1 class="sub-tittle">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./20221211184225_IMG_9047.JPG" alt="">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>web desiging has been my all time desire course. i am so determined in web designing as my future career i am so passionate in web desigin</p>
+                    <a href="#">hey</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./20221211184225_IMG_9047.JPG" alt="">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>jonathan is also a graphic desginer he has been designing pictures since childhoood using clayons i have also designed photos for our musician star mejja</p>
+                    <a href="#">hey</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./20221211184225_IMG_9047.JPG" alt="">
+                <div class="layer">
+                    <h3>Game Design</h3>
+                    <p>Gaming is all i do on my free time i am one the most wanted guys in the Grand theft auto also know as GTA i have played it since version one i also played need for speed</p>
+                    <a href="#">hey</a>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+            <a href="./bussiness plan jonahs.docx" download class="button">Download CV</a>
+
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact</h1>
+                    <p>mwaurajonathan019@gmail.com</p>
+                    <p>0703488686</p>
+                    <div class="social-icons">
+
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text"name='jonathan' placeholder="Your Name" required>
+                        <input type="email" name="email"placeholder="Your Email" required>
+                        <textarea name="message" rows="8"placeholder="your mesaage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ jonathan.this portfolio is made by jonathan maingi mwaura</p>
+            <p>mwaurajonathan019@gmail.com</p>
+        </div>
+    </div>
+    
+    <script src="./portfolio.js"></script>
+</body>
+</html>
